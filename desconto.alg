@@ -1,15 +1,15 @@
 algoritmo "Desconto"
-// Função :
+// FunÃ§Ã£o : Calcula o desconto 
 // Autor : Natali Schers
 // Data : 26/05/2020
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 preco, idade, desc, formuladesc: real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval("Programa do Desconto")
 
-escreval("Digite Aqui o Preço do Ingresso:")
+escreval("Digite Aqui o PreÃ§o do Ingresso:")
 leia(preco)
 escreval("Digite Aqui Sua Idade:")
 leia(idade)
@@ -17,25 +17,25 @@ leia(idade)
 se (idade>0) e (idade<=5) entao
 formuladesc<-preco*15/100
 desc<-preco-formuladesc
-escreval ("Seu desconto é de 15%, Então o ingresso custará:",desc,"reais")
+escreval ("Seu desconto Ã© de 15%, EntÃ£o o ingresso custarÃ¡:",desc,"reais")
 fimse
 
 se (idade>6) e (idade<=20) entao
 formuladesc<-preco*5/100
 desc<-preco-formuladesc
-escreval ("Seu desconto é de 5%, Então o ingresso custará:", desc, "reais")
+escreval ("Seu desconto Ã© de 5%, EntÃ£o o ingresso custarÃ¡:", desc, "reais")
 fimse
 
 se (idade>21) e (idade<=40) entao
 formuladesc<-preco*2/100
 desc<-preco-formuladesc
-escreval ("Seu desconto é de 2%, Então o ingresso custará:", desc, "reais")
+escreval ("Seu desconto Ã© de 2%, EntÃ£o o ingresso custarÃ¡:", desc, "reais")
 fimse
 
 se (idade>40) entao
 formuladesc<-preco*30/100
 desc<-preco-formuladesc
-escreval ("Seu desconto é de 30%, Então o ingresso custará:", desc, "reais")
+escreval ("Seu desconto Ã© de 30%, EntÃ£o o ingresso custarÃ¡:", desc, "reais")
 fimse
 
 fimalgoritmo
